@@ -1,0 +1,81 @@
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img,span {
+	margin: 0;
+	padding: 0;
+}
+img {border: none;}
+img {display: block;}
+ul,li {
+	list-style: none;
+}
+body {
+	font-family: "微软雅黑", "Arial";
+	font: 12px/1.5em tohoma,arial,simsun,sans-serif;
+	background: url(../img/register/register_bg.jpg) repeat-x;
+	outline: none;
+}
+a {
+	text-decoration: none;
+}
+i {
+	font-style: normal;
+}
+body{ font-size: 12px;}
+input{ outline: none;}
+
+
+.sidenav_back{ height: 29px; border-bottom: 1px solid #ddd; background: #eee;}
+.sidenav{ position: relative;  width: 980px; height: 29px; margin:  0 auto;}
+.sidenav .sidenav_reg{ overflow: hidden; padding-left: 15px; line-height: 30px; color: #999;}
+.sidenav .quickMenu{ height: 30px;  position: absolute; right: 0; top: 0;}
+.sidenav .quickMenu ul{ overflow: hidden;}
+.sidenav .quickMenu ul li{ overflow: hidden; float: left; margin-right: 8px;  line-height: 30px; color: #666;}
+.sidenav .quickMenu ul .help a{ margin-right: 5px;}
+.sidenav .quickMenu ul .sugg{ padding-left: 24px; position: relative;}
+.sidenav .quickMenu ul .sugg b{ width: 12px; height: 12px; display: block; position: absolute; left: 10px; top: 10px; background: url(../img/register/sitenav.png) no-repeat -40px 0;}
+.sidenav .quickMenu ul .phone{ font-size: 14px; font-family: simhei; position: relative; padding-left: 22px; font-weight: bold;}
+.sidenav .quickMenu ul .phone b{ position: absolute; display: block;width: 14px; height: 14px; left: 10px; top: 10px; background: url(../img/register/sitenav.png) no-repeat -60px 0;}
+.sidenav .quickMenu ul li a{  color: #666;} 
+.sidenav .quickMenu ul .myAccount{ margin-right: 0; position: relative; width: 73px; display: inline-block;}
+.sidenav .quickMenu ul .myAccount b{ display: block; position: absolute; left: 53px; top: 12px; width: 10px; height: 7px; background: url(../img/register/sitenav.png) no-repeat 0 0;}
+
+.content_back{ height: 465px;}
+.content_back .content{ position: relative; margin: 0 auto; height: 465px; width: 980px; background: url(../img/register/login_bg.jpg) no-repeat left top;}
+.content_back .content .login_box{ position: absolute; right: 0; top: 30px; width: 548px; height: 433px; border: 2px solid #EEDFBB;}
+.content_back .content .login_box .title{ width: 548px; height: 31px;}
+.content_back .content .login_box .title h2{ background: url(../img/register/titleBG.png) repeat-x left top; font: bold 15px/31px "微软雅黑"; padding-left: 10px;}
+.content_back .content .login_Main{ background-color: #fff; font-size: 12px; width: 526px; height: 380px; padding: 10px; border: 1px solid #C7012C ;}
+.content_back .content .login_Main .tips span{ font: bold 12px/18px "微软雅黑";  color: #999;}
+.content_back .content .login_Main .tips{ color: #f00;}
+.content_back .content .login_Main .tips em{ color: #C6002C; line-height: 18px;}
+.content_back .content .login_Main table{ width: 100%;}
+.content_back .content .login_Main table .name{ text-align: right;}
+.content_back .content .login_Main table .name p{ float: right; padding-right: 7px;}
+.content_back .content .login_Main table .name span{font-weight: bold;float: right; width: 2px; height: 13px; padding-right: 8px;color: #C6002C;}
+.content_back .content .login_Main table  .pic{display: block; width: 29px; padding: 2px 23px; height: 16px;float: left;  background-color: pink; margin:5px 6px ;}
+.content_back .content .login_Main table tr td input::-webkit-input-placeholder{ font-size: 12px;}
+.content_back .content .login_Main table tr td input::-ms-input-placeholder{ font-size: 12px;}
+.content_back .content .login_Main table tr td input::-moz-placeholder{ font-size: 12px;}
+.content_back .content .login_Main table tr td input:-moz-placeholder{ font-size: 12px;}
+.content_back .content .login_Main table tr td .text_tips{ display: none; height: 18px; line-height: 18px;background: #ECF9DF; color: #FF4C31; margin-left: 3px;}
+.content_back .content .login_Main table tr td .text_tips.ruo{background: url(../img/register/ruo.png) no-repeat left top;}
+.content_back .content .login_Main table tr td .text_tips.zhong{background: url(../img/register/zhong.png) no-repeat left top; }
+.content_back .content .login_Main table tr td .text_tips.qiang{background: url(../img/register/qiang.png) no-repeat left top; }
+.content_back .content .login_Main table tr td a{ float: left; font: 12px/30px "微软雅黑"; text-align: center;}
+.content_back .content .login_Main table tr td #treaty{ height: 30px; width: 173px; position: relative;}
+.content_back .content .login_Main table tr td #treaty .checkbox{ margin-top: 9px; float: left; vertical-align: middle;}
+.content_back .content .login_Main table tr td #treaty p{ line-height: 30px; float: left; display: block; width: 180px; position: absolute;left: 22px; height: 30px;}
+.content_back .content .login_Main table tr td #treaty p span{ display: block; float: left;}
+.content_back .content .login_Main table tr td #treaty p a{display: block; font: 12px/30px "微软雅黑"; float: left;}
+.content_back .content .login_Main table tr .lastTd{ padding-left: 30px;}
+.content_back .content .login_Main .btn_register a{ display: block; width: 140px; height: 40px; background: url(../img/register/register.png) no-repeat 0 0; margin-left: 90px;}
+.content_back .content .login_Main .btn_register a:hover { background: url(../img/register/register.png) no-repeat 0 -40px;}
+
+/*--------------footer----------------*/
+.footer_back{ height: 105px;}
+.footer{ width: 980px; height: 84px; padding: 6px; margin: 0 auto; border-top: 1px solid #e2e2e2;}
+.footer .copyright{ float: left;}
+.footer .copyright p{ color:#666 ;}
+.footer .copyright p a{ padding: 0 3px; color: #06f;}
+.footer .copyright .permit a{ color: #999;}
+.footer .supervision{ float: right;}
+.footer .supervision a img{ width: 51px;}

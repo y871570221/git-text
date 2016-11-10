@@ -1,0 +1,84 @@
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img,span {
+	margin: 0;
+	padding: 0;
+}
+img {border: none;}
+img {display: block;}
+ul,li {
+	list-style: none;
+}
+body {
+	font-family: "微软雅黑", "Arial";
+}
+a {
+	text-decoration: none;
+}
+i {
+	font-style: normal;
+}
+body{ font-size: 12px; color: #666;}
+
+.header_back{height: 95px;}
+.header_back .header{ margin: 0 auto; width: 1200px; height: 95px; position: relative;}
+.header .logo{ width: 300px; height: 88px;}
+.header .cart_steps{overflow: hidden; position: absolute; left: 325px; top: 35px; background: url(../img/cart/cart32.png) no-repeat left top;} 
+.header .cart_steps li{text-align: center; width: 212px; height: 35px; float: left; font: 16px/35px "微软雅黑"; color: #fff;}
+.cart_back{ }
+.cart{ width: 1200px; margin: 0 auto;}
+.cart .cart_title{ margin: 15px 0; position: relative;}
+.cart .cart_title .cart_title_content{  font: 16px/26px "微软雅黑";	font-weight: bold;}
+.ui_tipsPop{ position: absolute; z-index: 9; left: 120px; top: 0; background-color: #FFFFE3; padding: 3px 18px 3px 12px; border: 1px solid #ccc;}
+.ui_tipsPop .ui_tipsPop_arrows{ width: 8px; height: 8px; position: absolute; z-index: 10; left: -8px; top: 7px; background: url(../img/cart/ui_tipsPop.png) no-repeat -9px 0px;}
+.ui_tipsPop .ui_tipsPop_close{ width: 7px; height: 7px; z-index: 10; position: absolute; top: 1px; right: 1px;background: url(../img/cart/ui_tipsPop.png) no-repeat 0 0;}
+.csrt_box{border-top: 2px solid #C7012C;}
+.cart_nothing{ overflow: hidden; width: 380px; margin: 0 auto; padding: 40px 0 60px 70px; background: url(../img/ui_icon_alert.png) no-repeat 0 45px;}
+.cart_nothing h2{ font: 14px/14px "微软雅黑"; padding: 12px 0; font-weight: bold;}
+.cart_nothing span{ display: block; height: 46px; float: left; line-height: 23px;}
+.like{ margin-top: 20px;}
+.footer_back { height: 96px; margin: 20px 0;}
+.footer_back .footer{ width: 1200px; height: 96px;}
+.account {display: none; height: 47px; }
+.account .eliminate{display: block; line-height: 24px; width: 60px; color: #666; float: left; padding-left: 35px;background: url(../img/cart/cart_icon.png) no-repeat 10px -37px;}
+.account .account_buy{float: right; width: 192px; height: 45px; background: url(../img/cart/cart_bg.png) no-repeat 0px 0px; margin-top: 3px; font: 18px/45px "微软雅黑"; color: #fff; text-align: center;}
+.account .goShopping{float: right; width: 111px; height: 36px;background: url(../img/cart/cart_bg.png) no-repeat 0 -45px; margin-right: 39px; margin-top: 9px;text-align: center; font: 14px/36px "微软雅黑"; font-weight: bold; color: #727272;}
+
+/**/
+.account_list{display: none;}
+.account_list .col_num{width: 60px; height: 35px; border: solid 1px #ddd;border-top: none;vertical-align: middle;text-align: center;}
+.account_list .col_img{width: 206px;}
+.account_list .col_name{width: 353px;}
+.account_list .col_nums{width: 160px;}
+.account_list .col_price,.col_total{width: 140px; text-align: center;}
+.account_list .col_op{width: 138px; text-align: center;}
+.account_list th{height: 35px;line-height: 35px; font-weight: normal;}
+.account_list { padding-top: 0;}
+.account_list em{font-style: normal;}
+.account_list th div{float: left;}
+.col_content{padding: 12px 0; overflow: hidden;}
+.col_content .col_img{width:206px ; float: left;}
+.col_content .col_img .ui_pimg175{width: 175px; height: 75px;}
+.col_content .col_img .ui_pimg175 .img{ overflow: hidden; display: block; margin-left: 65px;}
+.item_content{width: 931px; padding: 6px 0 0;float: left; line-height: 21px;}
+.item_content div{float: left;}
+#nums_input{ float: left; border: 1px solid #DDDDDD; height: 17px; text-align: center; margin-left: 55px; width: 50px;}
+.col_name a{color: #666;}
+.col_nums span{width: 15px; height: 10px; display: block; position: absolute;}
+.col_nums .nums_plus{left: 110px ; top: 0; background: url(../img/cart/ui_quantity.png) no-repeat 0 0;}
+.col_nums .nums_minu{ left: 110px; top: 11px; background: url(../img/cart/ui_quantity.png) no-repeat -15px 0;}
+.col_nums{position: relative;}
+.account_list tr{border-right: 1px solid #ccc; border-bottom: 1px solid #ccc;}
+.divPriceTotal{ display: none; position: relative;   border: solid 1px #ddd;border-top: none;padding: 18px 30px; vertical-align: middle; text-align: right;}
+.divPriceTotal .price_total{font: 20px/20px "微软雅黑";color: #333;}
+.divPriceTotal .price_total em{font-style: normal; color: #f00;}
+.divPriceTotal .add_text{position: absolute;left: 0; top: 20px;color: #f00;}
+.account_list .col_op .del{border: 1px solid #ccc; text-align: center; padding-left: 5px; cursor: pointer;}
+
+
+
+
+
+
+
+
+
+
